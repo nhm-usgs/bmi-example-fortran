@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "heat_app", "heat_app\heat_app.vfproj", "{1C520EC1-CF14-4876-84CF-6AB6F0E79409}"
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "heat_lib", "heat_lib\heat_lib.vfproj", "{36CEC11D-30C2-4B01-8184-041C0F320EBB}"
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "heat_bmi_lib", "heat_bmi_lib\heat_bmi_lib.vfproj", "{05D392F8-6ECF-4FA7-85E5-EF8CA19B8D44}"
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "heat_bmi_app", "heat_bmi_app\heat_bmi_app.vfproj", "{A6F475DD-D63F-497A-A3DD-B2B3ACA397D9}"
+EndProject
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "conflicting_instances_ex", "conflicting_instances_ex\conflicting_instances_ex.vfproj", "{08D5D5CB-2D5C-4C5E-8901-1D688D401BBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C520EC1-CF14-4876-84CF-6AB6F0E79409}.Debug|x64.ActiveCfg = Debug|x64
+		{1C520EC1-CF14-4876-84CF-6AB6F0E79409}.Debug|x64.Build.0 = Debug|x64
+		{1C520EC1-CF14-4876-84CF-6AB6F0E79409}.Debug|x86.ActiveCfg = Debug|Win32
+		{1C520EC1-CF14-4876-84CF-6AB6F0E79409}.Debug|x86.Build.0 = Debug|Win32
+		{1C520EC1-CF14-4876-84CF-6AB6F0E79409}.Release|x64.ActiveCfg = Release|Win32
+		{1C520EC1-CF14-4876-84CF-6AB6F0E79409}.Release|x86.ActiveCfg = Release|Win32
+		{1C520EC1-CF14-4876-84CF-6AB6F0E79409}.Release|x86.Build.0 = Release|Win32
+		{36CEC11D-30C2-4B01-8184-041C0F320EBB}.Debug|x64.ActiveCfg = Debug|x64
+		{36CEC11D-30C2-4B01-8184-041C0F320EBB}.Debug|x64.Build.0 = Debug|x64
+		{36CEC11D-30C2-4B01-8184-041C0F320EBB}.Debug|x86.ActiveCfg = Debug|Win32
+		{36CEC11D-30C2-4B01-8184-041C0F320EBB}.Debug|x86.Build.0 = Debug|Win32
+		{36CEC11D-30C2-4B01-8184-041C0F320EBB}.Release|x64.ActiveCfg = Release|Win32
+		{36CEC11D-30C2-4B01-8184-041C0F320EBB}.Release|x86.ActiveCfg = Release|Win32
+		{36CEC11D-30C2-4B01-8184-041C0F320EBB}.Release|x86.Build.0 = Release|Win32
+		{05D392F8-6ECF-4FA7-85E5-EF8CA19B8D44}.Debug|x64.ActiveCfg = Debug|x64
+		{05D392F8-6ECF-4FA7-85E5-EF8CA19B8D44}.Debug|x64.Build.0 = Debug|x64
+		{05D392F8-6ECF-4FA7-85E5-EF8CA19B8D44}.Debug|x86.ActiveCfg = Debug|Win32
+		{05D392F8-6ECF-4FA7-85E5-EF8CA19B8D44}.Debug|x86.Build.0 = Debug|Win32
+		{05D392F8-6ECF-4FA7-85E5-EF8CA19B8D44}.Release|x64.ActiveCfg = Release|Win32
+		{05D392F8-6ECF-4FA7-85E5-EF8CA19B8D44}.Release|x86.ActiveCfg = Release|Win32
+		{05D392F8-6ECF-4FA7-85E5-EF8CA19B8D44}.Release|x86.Build.0 = Release|Win32
+		{A6F475DD-D63F-497A-A3DD-B2B3ACA397D9}.Debug|x64.ActiveCfg = Debug|x64
+		{A6F475DD-D63F-497A-A3DD-B2B3ACA397D9}.Debug|x64.Build.0 = Debug|x64
+		{A6F475DD-D63F-497A-A3DD-B2B3ACA397D9}.Debug|x86.ActiveCfg = Debug|Win32
+		{A6F475DD-D63F-497A-A3DD-B2B3ACA397D9}.Debug|x86.Build.0 = Debug|Win32
+		{A6F475DD-D63F-497A-A3DD-B2B3ACA397D9}.Release|x64.ActiveCfg = Release|Win32
+		{A6F475DD-D63F-497A-A3DD-B2B3ACA397D9}.Release|x86.ActiveCfg = Release|Win32
+		{A6F475DD-D63F-497A-A3DD-B2B3ACA397D9}.Release|x86.Build.0 = Release|Win32
+		{08D5D5CB-2D5C-4C5E-8901-1D688D401BBE}.Debug|x64.ActiveCfg = Debug|x64
+		{08D5D5CB-2D5C-4C5E-8901-1D688D401BBE}.Debug|x64.Build.0 = Debug|x64
+		{08D5D5CB-2D5C-4C5E-8901-1D688D401BBE}.Debug|x86.ActiveCfg = Debug|Win32
+		{08D5D5CB-2D5C-4C5E-8901-1D688D401BBE}.Debug|x86.Build.0 = Debug|Win32
+		{08D5D5CB-2D5C-4C5E-8901-1D688D401BBE}.Release|x64.ActiveCfg = Release|Win32
+		{08D5D5CB-2D5C-4C5E-8901-1D688D401BBE}.Release|x86.ActiveCfg = Release|Win32
+		{08D5D5CB-2D5C-4C5E-8901-1D688D401BBE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {952A0D3C-71D0-4EC0-8AAE-79598E3085B0}
+	EndGlobalSection
+EndGlobal
