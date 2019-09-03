@@ -23,8 +23,8 @@
 				<Tool Name="VFPreBuildEventTool"/>
 				<Tool Name="VFPostBuildEventTool"/></Configuration>
 		<Configuration Name="Debug|x64" ConfigurationType="typeStaticLibrary">
-				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" AdditionalIncludeDirectories="..\..\..\bmi-fortran\vs_bmi\vs_bmi_static_lib\x64\Debug;..\heat_lib\x64\Debug" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
-				<Tool Name="VFLibrarianTool" AdditionalLibraryDirectories="..\..\..\bmi-fortran\vs_bmi\vs_bmi_static_lib\x64\Debug;..\heat_lib\x64\Debug" AdditionalDependencies="vs_bmi_static_lib.lib heat_lib.lib"/>
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" AdditionalIncludeDirectories="..\..\..\bmi-fortran\bmi_lib\vs_bmi_static_lib\x64\Debug;..\heat_lib\x64\Debug" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLibrarianTool" AdditionalLibraryDirectories="..\..\..\bmi-fortran\bmi_lib\vs_bmi_static_lib\x64\Debug;..\heat_lib\x64\Debug" AdditionalDependencies="vs_bmi_static_lib.lib heat_lib.lib"/>
 				<Tool Name="VFResourceCompilerTool"/>
 				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
 				<Tool Name="VFCustomBuildTool"/>
